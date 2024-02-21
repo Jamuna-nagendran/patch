@@ -1,0 +1,27 @@
+From aa9195a96ee59dccf3bccdc5198bacc5ebd37423 Mon Sep 17 00:00:00 2001
+From: Jamuna-nagendran <jamuna.nagendran@gmail.com>
+Date: Wed, 21 Feb 2024 12:17:53 +0530
+Subject: [PATCH] Added an Assignment Class with add()
+
+---
+ src/main/java/org/example/Assignment.java | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ create mode 100644 src/main/java/org/example/Assignment.java
+
+diff --git a/src/main/java/org/example/Assignment.java b/src/main/java/org/example/Assignment.java
+new file mode 100644
+index 0000000..3c11aad
+--- /dev/null
++++ b/src/main/java/org/example/Assignment.java
+@@ -0,0 +1,8 @@
++package org.example;
++
++public class Assignment {
++    public static void add(int a,int b) {
++        System.out.println("The sum of two integers are: " + (a+b));
++    }
++
++}
+-- 
+2.41.0.windows.1
+
