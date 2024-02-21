@@ -1,0 +1,26 @@
+From 93a6461086fcfa3df92202ed4cbc7d4003117d68 Mon Sep 17 00:00:00 2001
+From: Jamuna-nagendran <jamuna.nagendran@gmail.com>
+Date: Wed, 21 Feb 2024 12:23:12 +0530
+Subject: [PATCH] Added greeting() to Example Class
+
+---
+ src/main/java/org/example/Example.java | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/src/main/java/org/example/Example.java b/src/main/java/org/example/Example.java
+index 46d1b09..000acc8 100644
+--- a/src/main/java/org/example/Example.java
++++ b/src/main/java/org/example/Example.java
+@@ -4,4 +4,8 @@ public class Example {
+     public void print(){
+         System.out.println("Hello World!");
+     }
++
++    public void greeting() {
++        System.out.println("Hello from the other side");
++    }
+ }
+\ No newline at end of file
+-- 
+2.41.0.windows.1
+
